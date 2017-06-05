@@ -16,11 +16,11 @@ Estimating the Resilience to Sampling of Outlier Detection Methods
 The project is organized into 3 folders:
 * *Real-worldData* folder: Eight real-world datasets have been used in the study with the ground truth (when available); they have been originally extracted from UCI (https://archive.ics.uci.edu/ml/datasets.html),  ODDS (http://odds.cs.stonybrook.edu/), and from http://www.dbs.ifi.lmu.de/research/outlier-evaluation/ and cleaned and they are available in the *RealWorldData* folder with outlier detection as 0 or 1 flags in the last columns for each outlier detection methods considered in the study;
 * *SyntheticData* folder includes synthetic datasets with 1,000, 5,000, and 10,000 records that have been generated from independent bivariate normal distribution with mean (0, 0) and standard deviations 1 and 2 (with the respective R script) and they can be found as two separate archives.
-* *Code* folder includes the Python script for outlier ensembling and R scripts for generating the synthetic data with controlled distribution of outliers, for sampling (random, blocking and partitioning) and for outlier detection.
+* *Code* folder includes the Python script for outlier ensembling and 4 R scripts for generating the synthetic data with controlled distribution of outliers, for sampling (random, blocking and partitioning) and for outlier detection.
 
 
 # Reproducing Results
 
-After downloading the datasets, you make sure to change the path to access (read/write) the dataset and you can re-run the results presented in our paper simply by executing corresponding programs. 
+After downloading the datasets, you make sure to change the path to access (read/write) the input/output datasets and you can re-run the results presented in our paper simply by executing corresponding programs. 
 
 Our experiments are run in Python 2.7 on a MacOS Sierra with Intel 2.8 GHz Core i7 processor processor and 16 GB memory. 
