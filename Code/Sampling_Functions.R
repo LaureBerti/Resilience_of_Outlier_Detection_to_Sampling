@@ -1,5 +1,5 @@
 
-#### R functions to do sampling and computing of glitch summaries
+#### R functions developped by Ji Meng Loh to do sampling and computing of glitch summaries
 
 # Stratified sampling function (Parni's code)
 stratified.sample <- function(y,k) {
