@@ -1,19 +1,19 @@
-"""
-Modified by Saravanan Thirumuruganathan for building resilient outlier ensembles
-Original code by David Card at https://github.com/dallascard/ .
+##############################
+### Modified by Saravanan Thirumuruganathan for building resilient outlier ensembles
+### Adapted from the original code by David Card at https://github.com/dallascard/ .
 
 
-Description:
-Given unreliable observations of patient classes by multiple observers,
-determine the most likely true class for each patient, class marginals,
-and  individual error rates for each observer, using Expectation Maximization
+### Description:
+### Given unreliable observations of patient classes by multiple observers,
+### determine the most likely true class for each patient, class marginals,
+### and  individual error rates for each observer, using Expectation Maximization
 
 
-References:
-( Dawid and Skene (1979). Maximum Likelihood Estimation of Observer
-Error-Rates Using the EM Algorithm. Journal of the Royal Statistical Society.
-Series C (Applied Statistics), Vol. 28, No. 1, pp. 20-28. 
-"""
+### References:
+### (Dawid and Skene (1979). Maximum Likelihood Estimation of Observer
+### Error-Rates Using the EM Algorithm. Journal of the Royal Statistical Society.
+### Series C (Applied Statistics), Vol. 28, No. 1, pp. 20-28. 
+##############################
 
 import numpy as np
 import sys
