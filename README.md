@@ -14,9 +14,9 @@ Estimating the Resilience to Sampling of Outlier Detection Methods
 # Projet Structure
         
 The project is organized into 3 folders:
-* Real-world Data sets: Eight real-world datasets have been used in the study with the ground truth (when available); they have been originally extracted from UCI (https://archive.ics.uci.edu/ml/datasets.html),  ODDS (http://odds.cs.stonybrook.edu/), and from http://www.dbs.ifi.lmu.de/research/outlier-evaluation/ and cleaned and they are available in the *RealWorldData* folder with outlier detection as 0 or 1 flags in the last columns for each outlier detection methods considered in the study;
-* Synthetic Datasets with 1,000, 5,000, and 10,000 records have been generated from  independent bivariate normal distribution with mean (0, 0) and standard deviations 1 and 2 and they can be found in the *SyntheticData* folder as two separate archives.
-* *Code* folder includes Python script for outlier ensembling and R scripts for generating the synthetic data with controlled distribution of outliers, for sampling (random, blocking and partitioning) and for outlier detection.
+* *Real-worldData* folder: Eight real-world datasets have been used in the study with the ground truth (when available); they have been originally extracted from UCI (https://archive.ics.uci.edu/ml/datasets.html),  ODDS (http://odds.cs.stonybrook.edu/), and from http://www.dbs.ifi.lmu.de/research/outlier-evaluation/ and cleaned and they are available in the *RealWorldData* folder with outlier detection as 0 or 1 flags in the last columns for each outlier detection methods considered in the study;
+* *SyntheticData* folder includes synthetic datasets with 1,000, 5,000, and 10,000 records that have been generated from independent bivariate normal distribution with mean (0, 0) and standard deviations 1 and 2 (with the respective R script) and they can be found as two separate archives.
+* *Code* folder includes the Python script for outlier ensembling and R scripts for generating the synthetic data with controlled distribution of outliers, for sampling (random, blocking and partitioning) and for outlier detection.
 
 
 # Reproducing Results
