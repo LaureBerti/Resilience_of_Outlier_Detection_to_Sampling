@@ -1,6 +1,7 @@
 """
+Modified by Saravanan Thirumuruganathan for building resilient outlier ensembles
 Original code by David Card at https://github.com/dallascard/ .
-Modified by Saravanan Thirumuruganathan.
+
 
 Description:
 Given unreliable observations of patient classes by multiple observers,
