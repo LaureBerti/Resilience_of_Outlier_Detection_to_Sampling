@@ -1,3 +1,8 @@
+################################################################
+### Ji Meng Loh Functions to generate synthetic data         ###
+### with controlled distributions and percentage of outliers ###
+################################################################
+
 
 
 F.generateData <- function(N, pois.mu, norm.mu, norm.sd, norm2.mu, norm2.cov, str.length){
