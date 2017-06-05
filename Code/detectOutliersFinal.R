@@ -1,3 +1,9 @@
+################################################
+### Developed by Laure Berti-Equille
+### Generate the matrix of outlier results 
+### (last columns of each input dataset file)
+################################################
+
 required_packages <- c('outliers', 'DMwR', 'caret', 'MASS', 'entropy', 'shiny', 'DT', 'e1071')
 
 for(i in 1:length(required_packages)){
