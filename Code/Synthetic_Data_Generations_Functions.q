@@ -1,6 +1,7 @@
 ################################################################
-### Ji Meng Loh Functions to generate synthetic data         ###
-### with controlled distributions and percentage of outliers ###
+### Developped by Ji Meng Loh 
+### Functions to generate synthetic data         
+### with controlled distributions and percentage of outliers 
 ################################################################
 
 
@@ -22,7 +23,7 @@ F.generateData <- function(N, pois.mu, norm.mu, norm.sd, norm2.mu, norm2.cov, st
 }
 
 
-### functions to add glitches
+### functions to add glitches (addMissing and addDuplicate functions are not used in the current paper)
 
 F.addMissing <- function(good.data, prop.missing=0.1, which.cols=NULL){
   ### add missing to dataset, specifying how much missing to add and to which cols
