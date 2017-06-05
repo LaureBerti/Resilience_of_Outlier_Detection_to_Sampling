@@ -1,5 +1,7 @@
 
-#### R functions developped by Ji Meng Loh to do sampling and computing of glitch summaries
+#### R functions developped by Ji Meng Loh to excute the diffferent sampling strategies: 
+## Random, Blocking and partitioning are presented in the paper and 
+## for computing of glitch summaries
 
 # Stratified sampling function (Parni's code)
 stratified.sample <- function(y,k) {
@@ -23,7 +25,7 @@ block.sample <- function(y, Blk.num, Blk.size){
     return(boot)
 }
 
-### simple random sampling
+### Simple random sampling
 random.sample <- function(y, sample.size){
     ## y is the data
     ## sample.size is the size of the bootstrap sample
@@ -32,7 +34,7 @@ random.sample <- function(y, sample.size){
     return(boot)
 }
 
-#### subsetting
+#### subsetting / partitioning
 subset.sample <- function(y, numsets, myname){
     ### break y up into subsets based on the proportion
     y.size <- nrow(y)
