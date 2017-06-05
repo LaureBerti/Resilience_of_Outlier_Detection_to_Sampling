@@ -1,4 +1,7 @@
-#Different Outlier Detection Methods
+### Developped by Laure Berti-Equille
+### 
+### Different Outlier Detection Methods
+########################################
 
 lof <- function(df, n, k){
   #Method M1 -- LOF (multivariate)
