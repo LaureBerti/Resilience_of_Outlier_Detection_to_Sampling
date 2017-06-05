@@ -1,15 +1,14 @@
 # Resilience
 Estimating the Resilience to Sampling of Outlier Detection Methods
 
-```javascript
- We  introduce the notion of  *resilience  to sampling* for outlier detection methods. Orthogonal to  traditional quality performance metrics such as precision/recall, resilience represents the extent up to which the number of outliers detected by a method applied to the whole dataset is preserved when the method is actually applied to a set of samples from a given sampling scheme. 
+> We  introduce the notion of  *resilience  to sampling* for outlier detection methods. Orthogonal to  traditional quality performance metrics such as precision/recall, resilience represents the extent up to which the number of outliers detected by a method applied to the whole dataset is preserved when the method is actually applied to a set of samples from a given sampling scheme. 
         
- We propose a novel approach for estimating the resilience to sampling of both individual outlier methods and their ensembles. 
+> We propose a novel approach for estimating the resilience to sampling of both individual outlier methods and their ensembles. 
 
- We performed an extensive experimental study on synthetic and real-world datasets where we study seven diverse and representative outlier detection methods, compare their results obtained from samples versus the ones obtained from the whole datasets and evaluate the accuracy of our resilience estimates. 
+> We performed an extensive experimental study on synthetic and real-world datasets where we study seven diverse and representative outlier detection methods, compare their results obtained from samples versus the ones obtained from the whole datasets and evaluate the accuracy of our resilience estimates. 
 
- We observed that the methods are not equally resilient to a given sampling scheme and it is often the case that careful joint selection of both the sampling scheme and the outlier detection method is necessary. Our findings have practical impact for detecting outliers from Big Data and we hope that this will initiate research on designing new outlier detection algorithms that are resilient to sampling.
-```
+> We observed that the methods are not equally resilient to a given sampling scheme and it is often the case that careful joint selection of both the sampling scheme and the outlier detection method is necessary. Our findings have practical impact for detecting outliers from Big Data and we hope that this will initiate research on designing new outlier detection algorithms that are resilient to sampling.
+
 ***
 
 # Projet Structure
