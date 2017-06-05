@@ -23,6 +23,6 @@ The project is organized into 3 folders:
 
 After downloading the datasets, you make sure to change the path to access (read/write) the input/output datasets and you can re-run the results presented in our paper simply by executing corresponding programs. 
 
-> Due to space limitation only for the dataset *Arrhythmia*: we share the files obtained after sampling and re-detection of outliers in three separate folders: random, blocking and partitioning. Similar results can be obtained by running the R scripts for sampling and outlier detection for any considered dataset and averaging for the 100 generated experimental runs.
+>  For the dataset *Arrhythmia* only (due to space limitation): we share the files obtained after sampling and re-detection of outliers in three separate folders: random, blocking and partitioning. the last columns of each file indicates the outlier detection flag from the sample for each method (prefixed with "s"). The results for the other datasets can be obtained by running the R script for sampling and re-running the outlier detection over the samples and averaging the results of the 100 generated experimental runs.
 
 Our experiments are run in Python 2.7 on a MacOS Sierra with Intel 2.8 GHz Core i7 processor processor and 16 GB memory. 
