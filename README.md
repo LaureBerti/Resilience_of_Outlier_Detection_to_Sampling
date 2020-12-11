@@ -1,5 +1,4 @@
-# Resilience
-Estimating the Resilience to Sampling of Outlier Detection Methods
+# Resilience of Outlier Methods to Sampling
 
 > We  introduce the notion of  *resilience  to sampling* for outlier detection methods. Orthogonal to  traditional quality performance metrics such as precision/recall, resilience represents the extent up to which the number of outliers detected by a method applied to the whole dataset is preserved when the method is actually applied to a set of samples from a given sampling scheme. 
         
