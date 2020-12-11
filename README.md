@@ -31,3 +31,9 @@ After downloading the datasets, you make sure to change the path to access (read
 >  For the dataset *Arrhythmia* only (due to space limitation): we share the files obtained after sampling and re-detection of outliers in three separate folders: random, blocking and partitioning. the last columns of each file indicates the outlier detection flag from the sample for each method (prefixed with "s"). The results for the other datasets can be obtained by running the R script for sampling and re-running the outlier detection over the samples and averaging the results of the 100 generated experimental runs.
 
 Our experiments are run in Python 2.7 on a MacOS Sierra with Intel 2.8 GHz Core i7 processor processor and 16 GB memory. 
+
+
+# License
+
+The source code for the site is licensed under the MIT license.
+
