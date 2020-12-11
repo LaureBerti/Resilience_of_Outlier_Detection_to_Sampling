@@ -8,6 +8,12 @@
 
 > We observed that the methods are not equally resilient to a given sampling scheme and it is often the case that careful joint selection of both the sampling scheme and the outlier detection method is necessary. Our findings have practical impact for detecting outliers from Big Data and we hope that this will initiate research on designing new outlier detection algorithms that are resilient to sampling.
 
+# For More detail
+
+Please find the description of our approach in [our paper on Axiv:](https://arxiv.org/abs/1907.13276)
+* Laure Berti-Équille, Ji Meng Loh, Saravanan Thirumuruganathan: Are Outlier Detection Methods Resilient to Sampling? CoRR abs/1907.13276 (2019)
+
+
 ***
 
 # Projet Structure
